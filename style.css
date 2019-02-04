@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  background-color: rgba(0, 255, 179, 0.486);
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+h1 {
+  font-family: "Handlee", cursive;
+  font-size: 3em;
+  border: 2px solid rgba(0, 38, 253, 0.582);
+  width: 360px;
+  text-align: center;
+  color: rgb(0, 0, 160);
+  box-shadow: 3px 3px 3px #888888;
+  margin: 0;
+  margin-bottom: 18px;
+}
+
+img {
+  width: 390px;
+  height: 270px;
+  margin: 6px;
+  transition: all .7s;
+}
+
+img:hover {
+  transform: scale(1.1);
+}

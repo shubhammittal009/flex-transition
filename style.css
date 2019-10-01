@@ -2,13 +2,11 @@ body {
   margin: 0;
   background-color: rgba(0, 255, 179, 0.486);
 }
-
 .container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
-
 h1 {
   font-family: "Handlee", cursive;
   font-size: 3em;
@@ -20,14 +18,13 @@ h1 {
   margin: 0;
   margin-bottom: 18px;
 }
-
 img {
   width: 390px;
   height: 270px;
   margin: 6px;
   transition: all .7s;
 }
-
 img:hover {
   transform: scale(1.1);
 }
+// Won't matter it's just cool and fine
